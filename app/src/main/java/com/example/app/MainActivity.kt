@@ -42,4 +42,4 @@ class MainActivity : AppCompatActivity() {
 
 // ADD METHOD B
 
-// JOHN ADDED METHOD C
+// JOHN ADDED METHOD C AND D
