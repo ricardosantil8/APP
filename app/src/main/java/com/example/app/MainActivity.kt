@@ -6,8 +6,11 @@ import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
+import com.example.app.dataclasses.Tema
 
 class MainActivity : AppCompatActivity() {
+
+    private lateinit var myList: ArrayList<Tema>
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -37,19 +40,3 @@ class MainActivity : AppCompatActivity() {
     }
 }
 
-// Push
-
-
-// ADD METHOD B
-
-// JOHN ADDED METHOD C
-//add final method
-
-// Ricardo Branch
-//Branch teste 1
-
-// Ricardo added method I
-
-// Method d f
-
-// MEthod G
