@@ -31,5 +31,10 @@
         android:layout_height="wrap_content"
         android:textStyle="bold"
         android:text="Nome">
+
     </TextView>
+    <
+
+
+
 </RelativeLayout>
