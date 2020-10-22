@@ -8,9 +8,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
 import com.example.app.dataclasses.Tema
-import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
-
+import android.recyclerview.widget.LinearLayoutManager
 
 class MainActivity : AppCompatActivity() {
 
@@ -22,12 +20,12 @@ class MainActivity : AppCompatActivity() {
 
         myList = ArrayList<Tema>()
 
-        for (i in 0 until 5)
-        {
+        for (i in 0 until 5){
             myList.add(Tema(titulo = "Titanic", subtitulo = "Drama", nome = "Dicaprio"))
         }
-       // recycler_view.adapter = LineAdapter(myList)
-        //recycler_view.layoutManager = LinearLayoutManager (this)
+        recycler_view.adapter = LineAdapter(myList)
+
+
     }
 }
 
